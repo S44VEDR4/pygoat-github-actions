@@ -38,7 +38,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target: 'http://54.186.124.63'
           rules_file_name: '.zap/rules.tsv'
-          # cmd_options: '-m 5 -n .zap/PyAuthenticationTest.context'
+          cmd_options: '-m 5 -n .zap/PyAuthenticationTest.context'
          
 
       - name: Remove GitHub Actions IP from AWS Security Group
